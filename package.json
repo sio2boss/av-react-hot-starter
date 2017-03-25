@@ -1,0 +1,23 @@
+{
+  "name": "table",
+  "version": "1.0.0",
+  "description": "Demo Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriasoft/react-starter-kit.git"
+  },
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "author": "henneberger.daniel@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kriasoft/react-starter-kit/issues"
+  },
+  "homepage": "https://github.com/kriasoft/react-starter-kit#readme"
+}
