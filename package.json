@@ -1,23 +1,25 @@
 {
-  "name": "table",
+  "name": "react_starter",
   "version": "1.0.0",
-  "description": "Demo Project",
+  "description": "React starter",
   "main": "index.js",
-  "scripts": {
-    "test": "grunt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kriasoft/react-starter-kit.git"
-  },
-  "keywords": [
-    "react",
-    "starter"
-  ],
-  "author": "henneberger.daniel@gmail.com",
+  "repository": "https://github.com/henneberger/react-starter.git",
+  "author": "Daniel Henneberger <henneberger.daniel@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kriasoft/react-starter-kit/issues"
+  "dependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
-  "homepage": "https://github.com/kriasoft/react-starter-kit#readme"
+  "devDependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "express": "^4.15.2",
+    "webpack": "^2.3.2"
+  },
+  "scripts": {
+    "server": "babel-node simple_server.js",
+    "watch": "webpack --watch"
+  }
 }
