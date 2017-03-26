@@ -23,7 +23,3 @@ yarn test
 
 ### License
 MIT
-
-## TODO
- - SCSS
- - Simple publishing
