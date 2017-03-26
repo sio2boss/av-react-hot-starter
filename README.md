@@ -1,6 +1,6 @@
 # react-starter
 
-A drop dead simple react starter. The philosophy is a no-abstraction configuration to favor code deletion over reusability.
+A drop dead simple react starter (ES2017). The philosophy is a no-abstraction configuration to favor code deletion over reusability.
 
 ## Getting started
 ### Running a server
@@ -15,6 +15,12 @@ Run the webpack. There is no hot-loading due to a non-clean separation of hot-lo
 yarn run webpack
 ```
 
+### Testing
+Uses jest as the test runner with enzyme as the renderer.
+```
+yarn test
+```
+
 ## TODO
  - SCSS
- - Simple publishing on surge.sh
+ - Simple publishing
