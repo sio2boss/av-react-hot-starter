@@ -21,6 +21,9 @@ Uses jest as the test runner with enzyme as the renderer.
 yarn test
 ```
 
+### License
+MIT
+
 ## TODO
  - SCSS
  - Simple publishing
