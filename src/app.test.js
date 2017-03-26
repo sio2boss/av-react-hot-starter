@@ -4,9 +4,9 @@ import { mount } from 'enzyme';
 import App from './app';
 
 test('Test render', () => {
-    let app = mount(
+    let wrapper = mount(
         <App />
     );
 
-    expect(app.text()).toEqual("Hello world");
+    expect(wrapper.text()).toEqual("Hello world");
 });

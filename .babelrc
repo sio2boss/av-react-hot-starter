@@ -1,3 +1,4 @@
+// Jest wants a .babelrc file
 {
   "presets": ["env", "react"]
 }
