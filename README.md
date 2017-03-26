@@ -9,7 +9,7 @@ Included is a simple node server that will serve static resources. This is conce
 yarn run server
 ```
 
-### Webpacking the JS
+### Bundling the JS
 Run the webpack. There is no hot-loading due to a non-clean separation of hot-loading with asset serving.
 ```
 yarn run webpack
