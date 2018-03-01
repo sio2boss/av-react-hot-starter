@@ -1,4 +1,4 @@
-# react-starter
+# av-react-hot-starter
 
 A drop dead simple react starter (ES2017). With react-hot-loader and webpack-dev-server.
 
