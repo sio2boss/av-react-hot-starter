@@ -1,22 +1,28 @@
 # react-starter
 
-A drop dead simple react starter (ES2017). The philosophy is a no-abstraction configuration to favor code deletion over reusability.
+A drop dead simple react starter (ES2017). With react-hot-loader and webpack-dev-server.
 
 ## Getting started
-### Running a server
+
+### Install av
+
+npm install -g av-shell
+
+This allows us to work from the root director or from within a custom shell for this project.  You can start the shell with 'av' or just prefix your command as show below.
+
+### Running the server
+Prepping the build environment
+```
+av yarn install
+```
+
 Included is a simple node server that will serve static resources. This is conceptually separated and code isolated to allow you to drop in your own server.
 ```
-yarn run server
+av yarn server
 ```
 
-### Bundling the JS
-Run the webpack. There is no hot-loading due to a non-clean separation of hot-loading with asset serving.
+Run the webpack-dev-server with hot-loading
 ```
-yarn run webpack
+av webpack-server
 ```
 
-### Testing
-Uses jest as the test runner with enzyme as the renderer.
-```
-yarn test
-```

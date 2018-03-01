@@ -1,3 +1,4 @@
 node_modules
 .idea
 build
+.av/vars/lasthash
